@@ -1,0 +1,2 @@
+# Ransomware
+A ransomware lol. 
