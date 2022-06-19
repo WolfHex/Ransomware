@@ -1,5 +1,5 @@
 # Ransomware
-A ransomware lol. MO Aes just file corrupter
+A ransomware lol. NO AES just file corrupter
 
 # Dirent Lib 
 https://github.com/tronkko/dirent
